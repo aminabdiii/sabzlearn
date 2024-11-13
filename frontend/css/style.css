@@ -1,0 +1,14 @@
+.bg-keyboard {
+   background-image: url(../images/blogs/keyboard.jpg);
+   /* background-attachment: fixed; */
+}
+.blogGradient {
+   background: linear-gradient(180deg, #fff0, #fffc 74.19%, #fff);
+}
+.footerItemContainer li a {
+   color: #64748b;
+}
+.footerItemContainer li a:hover {
+   color: #2bce56;
+   transform: rotate(180);
+}

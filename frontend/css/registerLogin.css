@@ -1,0 +1,18 @@
+.swal-footer {
+   display: flex;
+   justify-content: center;
+}
+.swal-button {
+   background-color: #6228d7;
+}
+.swal-button:hover {
+   background-color: #6228d7 !important;
+}
+.swal-overlay {
+   background-color: rgba(0, 0, 0, 0.81);
+}
+.swal-text {
+   text-align: center;
+   border-radius: 5px;
+   font-weight: bold;
+}

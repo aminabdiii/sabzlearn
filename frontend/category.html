@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./src/output.css" />
+        <link rel="stylesheet" href="./vendor/fontAwsome5/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./vendor/swiperSlider/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/registerLogin.css" />
+    </head>
+    <body class="bg-gray-100">
+        <!--? start header -->
+        <header>
+            <!--? start top bar -->
+            <nav class="flex justify-between items-center bg-slate-200 px-5">
+                <ul class="flex gap-x-2 justify-between items-center py-4 text-darkColor text-sm" id="topbarList">
+                    <!-- rendred from js -->
+                </ul>
+
+                <div class="flex gap-x-5">
+                    <div>
+                        <a href="#">
+                            09981234567
+                            <i class="fa fa-phone text-primaryColor"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            sabzlearn@gmail.com
+                            <i class="fa fa-envelope text-primaryColor"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--? fisish top bar -->
+
+            <!--? start navbar -->
+            <nav class="bg-white flex justify-between items-center px-10">
+                <div>
+                    <ul class="flex gap-x-10 items-center" id="containerMenu">
+                        <li>
+                            <a href="#"><img src="./images/logo/logo.png" alt="" class="w-[73px] h-[48px]" /></a>
+                        </li>
+                        <!--! rendered from js -->
+                    </ul>
+                </div>
+
+                <div class="flex items-center gap-x-5">
+                    <button class="text-2xl w-[56px] h-[52.8px] bg-gray-100/90 rounded-full pt-3 pb-2 px-3 text-slate-500" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+
+                    <div class="text-slate-500 relative">
+                        <a href="#" class="bg-gray-100/90 pt-4 pb-3 px-4 rounded-full"
+                            ><i class="bi bi-cart text-2xl"></i>
+                            <span class="py-px px-2 rounded-full bg-blue-400 text-white absolute -top-2 right-1 scale-75">0</span>
+                        </a>
+                    </div>
+                    <div class="text-slate-500">
+                        <a href="#" class="flex items-center gap-x-2 bg-gray-100/90 rounded-full px-4 py-3.5" id="navBarProfileBox">
+                            <span id="navBarProfileName" class="flex items-center"> </span>
+                            <i class="fa-regular fa-user text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--? finish navbar -->
+        </header>
+        <!--? finish header -->
+
+        <main class="max-w-7xl mx-auto mt-40">
+            <!--? START top bar courses -->
+            <section class="bg-white rounded-md flex justify-between items-center mb-6 p-4">
+                <!--? right top bar -->
+                <div class="flex items-center justify-start gap-x-2">
+                    <a href="#" class="block btnGridItem btnShowTypeItem border active-category-item pt-1.5 pb-1 px-2.5 rounded-md"
+                        ><i class="fa-solid fa-border-all"></i
+                    ></a>
+                    <a href="#" class="block btnRowItem btnShowTypeItem border pt-1.5 pb-1 px-2.5 rounded-md">
+                        <i class="fas fa-align-left"></i>
+                    </a>
+                    <!--? start show category Courses by user filtering method -->
+                    <div class="relative group z-10">
+                        <span class="px-1.5 border flex items-center gap-x-2 cursor-pointer h-[35.6px] group-hover:-z-10">
+                            <span class="coursesFilteringTitle"> مرتب سازی پیش فرض </span>
+                            <i class="fa-solid fa-angle-down p-1"></i>
+                        </span>
+                        <ul
+                            class="ContainercoursesFilteringSelections absolute hidden top-0 right-0 w-64 bg-white shadow shadow-gray-300 border border-b-4 border-b-primaryColor group-hover:flex flex-col gap-y-3 z-10 rounded-lg"
+                        >
+                            <li>
+                                <a
+                                    href="#"
+                                    data-key="default"
+                                    class="coursesFilteringSelections px-3 py-2 block bg-gray-300 hover:bg-gray-200"
+                                    >مرتب سازی پیش فرض</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-key="score" class="coursesFilteringSelections px-3 py-2 block hover:bg-gray-200"
+                                    >مرتب سازی بر اساس امتیاز</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-key="first" class="coursesFilteringSelections px-3 py-2 block hover:bg-gray-200"
+                                    >مرتب سازی بر اساس اولین</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-key="last" class="coursesFilteringSelections px-3 py-2 block hover:bg-gray-200"
+                                    >مرتب سازی بر اساس آخرین</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-key="free" class="coursesFilteringSelections px-3 py-2 block hover:bg-gray-200"
+                                    >مرتب سازی بر اساس فقط رایگان</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-key="money" class="coursesFilteringSelections px-3 py-2 block hover:bg-gray-200"
+                                    >مرتب سازی بر اساس فقط غیر رایگان</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <!--? finish show category Courses by user filtering method -->
+                </div>
+                <!--? left top bar -->
+                <form action="#" class="relative flex items-center">
+                    <input
+                        type="text"
+                        class="border shadow-sm h-[35.6px] px-1 rounded-md"
+                        placeholder="جستجوی دوره"
+                        id="inputSearchCourses"
+                    />
+                    <button type="submit" class="absolute left-0 px-2 h-full text-darkColor">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </section>
+            <!--? FINISH top bar courses -->
+            <!--? START course boxes  -->
+            <!--? start grid -->
+            <section class="grid grid-cols-4 gap-7" id="containerCategoryCoursesGrid">
+                <!--! rendered from js -->
+            </section>
+            <!--? finish grid -->
+            <!--? start flex -->
+            <section class="flex flex-col gap-7 my-5" id="containerCategoryCoursesRow">
+                <!--! rendered from js -->
+            </section>
+            <!--? finish flex -->
+
+            <!--? FINISH courses  -->
+
+            <!--? START pagination -->
+            <section class="mt-10">
+                <ul class="flex justify-center items-center gap-x-2">
+                    <li>
+                        <a
+                            href="#"
+                            class="border border-primaryColor shadow shadow-primaryColor rounded-lg flex justify-center items-center w-8 h-8 hover:bg-primaryColor hover:text-white"
+                            ><i class="fa-solid fa-arrow-right-long"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="border border-primaryColor shadow shadow-primaryColor rounded-lg flex justify-center items-center w-8 h-8 hover:bg-primaryColor hover:text-white"
+                            >1</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="border border-primaryColor shadow shadow-primaryColor rounded-lg flex justify-center items-center w-8 h-8 hover:bg-primaryColor hover:text-white"
+                            >2</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="border border-primaryColor shadow shadow-primaryColor rounded-lg flex justify-center items-center w-8 h-8 bg-primaryColor text-white hover:text-white"
+                            >3</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="border border-primaryColor shadow shadow-primaryColor rounded-lg flex justify-center items-center w-8 h-8 hover:bg-primaryColor hover:text-white"
+                            ><i class="fa-solid fa-arrow-left-long"></i
+                        ></a>
+                    </li>
+                </ul>
+            </section>
+            <!--? FINISH pagination -->
+        </main>
+
+        <!--? start Footer -->
+        <footer class="mt-40 bg-white pt-8">
+            <div class="max-w-7xl mx-auto grid grid-cols-4 gap-7 justify-items-center">
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>درباره ما</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <span class="leading-8 text-slate-500 text-justify block">
+                            سبزلرن یک اکادمی خصوصی آموزش برنامه نویسی هست که با هدف تحویل نیروی متخصص بر پایه تولید محتوای غیرسطحی فعالیت
+                            میکند
+                        </span>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>دسترسی سریع</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <ul class="flex flex-col gap-y-3 footerItemContainer">
+                            <li><a href="#">قوانین و مقررات</a></li>
+                            <li><a href="#"> ارسال تیکت </a></li>
+                            <li><a href="#"> تمام دوره ها </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>لینک های مفید</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <ul class="flex flex-col gap-y-3 footerItemContainer">
+                            <li><a href="#"> آموزش پایتون</a></li>
+                            <li><a href="#"> آموزش HTML </a></li>
+                            <li><a href="#"> آموزش CSS </a></li>
+                            <li><a href="#"> آموزش جاوااسکریپت </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-5 items-center">
+                    <div class="text-xl font-bold">
+                        <h3>شبکه های اجتماعی</h3>
+                    </div>
+                    <div class="text-[16.5px]" dir="ltr">
+                        <ul class="flex flex-col justify-center items-baseline gap-y-5 footerItemContainer">
+                            <li>
+                                <a href="#">
+                                    <span>@sabzlearn_</span>
+                                    <i
+                                        class="bi bi-instagram bg-gradient-to-br from-instagram1 via-instagram2 to-instagram3 py-1 pb-0.5 rounded-full px-2 text-white"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pr-1.5">@sabzlearn</span>
+                                    <i class="bi bi-telegram bg-telegram py-1 pb-0.5 rounded-full px-2 text-white"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="max-w-7xl mx-auto flex items-center justify-between py-7 mt-7 border-t">
+                <span>ساخته شده با ❤️ در سبزلرن</span>
+                <span>کلیه حقوق مادی و معنوی سایت برای سبز لرن محفوظ است.</span>
+            </div>
+        </footer>
+
+        <!--? finish Footer -->
+        <script src="./vendor/fontAwsome5/all.min.js"></script>
+        <script type="module" src="./js/shared.js"></script>
+        <script type="module" src="./js/category.js"></script>
+        <script src="./vendor/sweetAlert/sweetalert.min.js"></script>
+    </body>
+</html>

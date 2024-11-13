@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+   @font-face {
+      font-family: IRANSans;
+      src: url(../font/IRANSans/IRANSans.ttf);
+   }
+}
+
+@layer base {
+   a {
+      @apply text-darkColor transition-all duration-300 hover:text-primaryColor;
+   }
+   body {
+      @apply font-IRANSans;
+   }
+   .active-category-item {
+      @apply bg-blue-600 text-white hover:text-white;
+   }
+   .btnCategotyItem {
+      @apply border shadow-sm;
+   }
+   input {
+      @apply outline-none;
+   }
+}

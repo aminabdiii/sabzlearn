@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./src/output.css" />
+        <link rel="stylesheet" href="./vendor/fontAwsome5/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body class="bg-gray-100">
+        <!--? start header -->
+        <header>
+            <!--? start top bar -->
+            <nav class="flex justify-between items-center bg-slate-200 px-5">
+                <ul class="flex gap-x-2 justify-between items-center py-4 text-darkColor text-sm" id="topbarList">
+                    <!-- rendred from js -->
+                </ul>
+
+                <div class="flex gap-x-5">
+                    <div>
+                        <a href="#">
+                            09981234567
+                            <i class="fa fa-phone text-primaryColor"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            sabzlearn@gmail.com
+                            <i class="fa fa-envelope text-primaryColor"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--? fisish top bar -->
+
+            <!--? start navbar -->
+            <nav class="bg-white flex justify-between items-center px-10">
+                <div>
+                    <ul class="flex gap-x-10 items-center" id="containerMenu">
+                        <li>
+                            <a href="#"><img src="./images/logo/logo.png" alt="" class="w-[73px] h-[48px]" /></a>
+                        </li>
+                        <!--! rendered from js -->
+                    </ul>
+                </div>
+
+                <div class="flex items-center gap-x-5">
+                    <button class="text-2xl w-[56px] h-[52.8px] bg-gray-100/90 rounded-full pt-3 pb-2 px-3 text-slate-500" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+
+                    <div class="text-slate-500 relative">
+                        <a href="#" class="bg-gray-100/90 pt-4 pb-3 px-4 rounded-full"
+                            ><i class="bi bi-cart text-2xl"></i>
+                            <span class="py-px px-2 rounded-full bg-blue-400 text-white absolute -top-2 right-1 scale-75">0</span>
+                        </a>
+                    </div>
+                    <div class="text-slate-500">
+                        <a href="#" class="flex items-center gap-x-2 bg-gray-100/90 rounded-full px-4 py-3.5" id="navBarProfileBox">
+                            <span id="navBarProfileName" class="flex items-center"> </span>
+                            <i class="fa-regular fa-user text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--? finish navbar -->
+        </header>
+        <!--? finish header -->
+        <!--? START breadcrumb  -->
+        <section
+            class="max-w-7xl mx-auto flex items-center gap-x-3 border border-primaryColor shadow shadow-primaryColor p-2 rounded-lg bg-white mt-10"
+        >
+            <div>
+                <a href="#" class="py-2 px-2.5 rounded-lg bg-slate-200 text-slate-500 block"><i class="fas fa-home"></i></a>
+            </div>
+            <ul class="flex gap-x-1 items-center">
+                <li>
+                    <a href="#" class="flex items-center">
+                        خانه
+                        <i class="fas fa-angle-left px-1"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center">
+                        آموزش برنامه نویسی فرانت اند
+                        <i class="fas fa-angle-left px-1"></i>
+                    </a>
+                </li>
+                <li><a href="#" class="flex items-center">دوره متخصص جاوا اسکریپت </a></li>
+            </ul>
+        </section>
+        <!--? start main blog box -->
+        <main class="flex justify-between max-w-7xl mx-auto mt-10 gap-x-6">
+            <section class="w-8/12 space-y-6">
+                <section class="w-full bg-white rounded-md px-5 flex flex-col gap-y-5">
+                    <!--? START header article -->
+                    <div class="flex flex-col gap-y-5">
+                        <div class="py-5 font-bold text-xl border-b">
+                            <h2>معرفی بهترین سایت آموزش جاوا اسکریپت [ تجربه محور ] + آموزش رایگان</h2>
+                        </div>
+                        <div class="text-sm py-0.5 flex gap-x-1">
+                            <a href="#" class="px-2 py-0.5">
+                                <i class="fa-regular fa-folder"></i>
+                                جاوا اسکریپت
+                            </a>
+                            <span class="px-2 py-0.5">
+                                <i class="fa-regular fa-user"></i>
+                                ارسال شده توسط قدیر
+                            </span>
+                            <span class="px-2 py-0.5">
+                                <i class="fa-regular fa-clock"></i>
+                                1401/02/10
+                            </span>
+                            <span class="px-2 py-0.5">
+                                <i class="fa-regular fa-eye"></i>
+                                2.14k بازدید
+                            </span>
+                        </div>
+                    </div>
+                    <!--? FINISH header article -->
+                    <!--? START header img -->
+                    <img src="./images/blogs/1.jpg" class="mx-auto" alt="" />
+                    <!--? FINISH header img -->
+                    <!--? START rating section -->
+                    <div class="flex gap-x-4">
+                        <div class="text-yellow-400">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="text-darkColor">
+                            <span>4.2/5 - (5 امتیاز)</span>
+                        </div>
+                    </div>
+                    <!--? FINISH rating section -->
+                    <!--? Start abstract -->
+                    <p class="text-justify text-slate-500 leading-8">
+                        جاوا اسکریپت یکی از زبان‌های برنامه‌نویسی اصلی حوزه فرانت‌اند است که به واسطه فریم ورک‌های آن می‌توان انواع وب
+                        سایت‌ها، اپلیکیشن‌ها و وب اپلیکیشن‌ها را طراحی کرد. به طور کلی بعد از یادگیری html و css معمولاً باید آموزش جاوا
+                        اسکریپت را نیز فرا بگیرید. . چرا که این زبان تکمیل‌کننده html و css بوده و در چنین شرایطی موقعیت‌های شغلی بیشتر را
+                        در اختیار خواهید داشت و همچنین می‌توانید پروژه‌های گسترده‌تری را انجام دهید. در حال حاضر با وجود منابع رایگان موجود
+                        در وب شما به راحتی می‌توانید زبان جاوا اسکریپت را به صورت حرفه‌ای فرا بگیرید. به همین واسطه در ادامه مطلب قصد داریم
+                        سایت‌های شاخص آموزش این زبان برنامه‌نویسی در جهان را به شما معرفی کنیم و در آخر بگوییم که بهترین سایت آموزش جاوا
+                        اسکریپت کدام است.
+                    </p>
+                    <!--? Finish abstract -->
+                    <!--? Start topic section -->
+                    <div class="bg-gray-100 p-6 rounded-md space-y-4">
+                        <span>آنچه در این مقاله خواهید خواند:</span>
+                        <ul class="space-y-2">
+                            <li class="">
+                                <a href="#" class="text-blue-600 hover:text-blue-600">معرفی بهترین سایت های آموزش جاوا اسکریپت</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-blue-600 hover:text-blue-600">یک راه آسان, دوره های جاوا اسکریپت آکادمی سبزلرن!</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-blue-600 hover:text-blue-600">ثبت نام در دوره های جاوا اسکریپت سبزلرن</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--? Finish topic section -->
+                    <!--? START body img -->
+                    <img src="./images/blogs/5.jpg" class="mx-auto" alt="" />
+                    <!--? FINISH body img -->
+                    <!--? Start acrticle section 1 -->
+                    <div class="space-y-5">
+                        <h4 class="text-2xl font-bold text-green-600">معرفی بهترین سایت ‌های آموزش جاوا اسکریپت:</h4>
+                        <p class="text-justify text-slate-500 leading-8">
+                            توجه داشته باشید که تمام وب سایت‌هایی که به عنوان بهترین سایت آموزش جاوا اسکریپت در ادامه معرفی می‌کنیم،
+                            بین‌المللی هستند و منابع موجود در آن‌ها به زبان انگلیسی است. در نتیجه شما باید یا تسلط متوسط و حداقلی به زبان
+                            انگلیسی داشته باشید و یا اینکه با استفاده از گوگل ترنسلیت منابع موجود را ترجمه کرده و از آن‌ها استفاده کنید. به
+                            همین دلیل در انتهای محتوا به شما خواهیم گفت که راه آسان دیگری برای یادگیری زبان جاوا اسکریپت وجود دارد که شما
+                            بتوانید به واسطه آن به صورت رایگان و به زبان فارسی این زبان را یاد بگیرید.
+                        </p>
+                    </div>
+                    <!--? Finish acrticle section 1 -->
+                    <!--? START body secondary img -->
+                    <img src="./images/blogs/4.png" class="mx-auto" alt="" />
+                    <!--? FINISH body secondary img -->
+                    <!--? Start acrticle section 2 -->
+                    <div class="space-y-5">
+                        <h4 class="text-2xl font-bold text-green-600">معرفی بهترین سایت ‌های آموزش جاوا اسکریپت:</h4>
+                        <p class="text-justify text-slate-500 leading-8">
+                            توجه داشته باشید که تمام وب سایت‌هایی که به عنوان بهترین سایت آموزش جاوا اسکریپت در ادامه معرفی می‌کنیم،
+                            بین‌المللی هستند و منابع موجود در آن‌ها به زبان انگلیسی است. در نتیجه شما باید یا تسلط متوسط و حداقلی به زبان
+                            انگلیسی داشته باشید و یا اینکه با استفاده از گوگل ترنسلیت منابع موجود را ترجمه کرده و از آن‌ها استفاده کنید. به
+                            همین دلیل در انتهای محتوا به شما خواهیم گفت که راه آسان دیگری برای یادگیری زبان جاوا اسکریپت وجود دارد که شما
+                            بتوانید به واسطه آن به صورت رایگان و به زبان فارسی این زبان را یاد بگیرید.
+                        </p>
+                    </div>
+                    <!--? Finish acrticle section 2 -->
+                    <!--? Start acrticle section 3 -->
+                    <div class="space-y-5">
+                        <h4 class="text-2xl font-bold text-green-600">معرفی بهترین سایت ‌های آموزش جاوا اسکریپت:</h4>
+                        <p class="text-justify text-slate-500 leading-8">
+                            توجه داشته باشید که تمام وب سایت‌هایی که به عنوان بهترین سایت آموزش جاوا اسکریپت در ادامه معرفی می‌کنیم،
+                            بین‌المللی هستند و منابع موجود در آن‌ها به زبان انگلیسی است. در نتیجه شما باید یا تسلط متوسط و حداقلی به زبان
+                            انگلیسی داشته باشید و یا اینکه با استفاده از گوگل ترنسلیت منابع موجود را ترجمه کرده و از آن‌ها استفاده کنید. به
+                            همین دلیل در انتهای محتوا به شما خواهیم گفت که راه آسان دیگری برای یادگیری زبان جاوا اسکریپت وجود دارد که شما
+                            بتوانید به واسطه آن به صورت رایگان و به زبان فارسی این زبان را یاد بگیرید.
+                        </p>
+                    </div>
+                    <!--? Finish acrticle section 3 -->
+                    <!--? START footer img -->
+                    <img src="./images/blogs/3.jpg" class="mx-auto" alt="" />
+                    <!--? FINISH footer img -->
+                    <!--? Start sharing section -->
+                    <div class="flex items-center gap-x-3 p-4 text-darkColor">
+                        <span class="-translate-y-1">اشتراک گذاری:</span>
+                        <ul class="flex gap-x-3">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--? Finsih sharing section -->
+                </section>
+                <!--? Start Suggested articles box -->
+                <section class="flex justify-between gap-x-3 border border-primaryColor bg-white rounded-md shadow shadow-primaryColor">
+                    <div class="w-1/2 flex flex-col gap-y-1 py-5 px-3">
+                        <span class="text-end text-slate-500 font-bold">قدیمی‌تر</span>
+                        <a href="#" class="flex items-center justify-between gap-x-3">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <span class="text-center leading-8">
+                                سریع ترین و بهترین راه یادگیری جاوا اسکریپت چیست؟ ( تجربه برنامه نویسان )
+                            </span>
+                        </a>
+                    </div>
+                    <div class="w-1/2 flex flex-col gap-y-1 py-5 px-3">
+                        <span class="font-bold text-slate-500">جدیدتر</span>
+                        <a href="#" class="flex flex-row-reverse items-center justify-between gap-x-3">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <span class="text-center leading-8">
+                                سریع ترین و بهترین راه یادگیری جاوا اسکریپت چیست؟ ( تجربه برنامه نویسان )
+                            </span>
+                        </a>
+                    </div>
+                </section>
+                <!--? Finish Suggested articles box -->
+            </section>
+
+            <section class="w-4/12 relative">
+                <section class="sticky left-0 top-5 flex flex-col gap-y-6">
+                    <!--? Start product box -->
+                    <div
+                        class="bg-white rounded-md shadow-md p-5 space-y-5 relative after:absolute after:top-4 after:-right-6 after:w-10 after:h-10 after:bg-primaryColor after:rounded-lg after:rotate-12 overflow-hidden"
+                    >
+                        <div>
+                            <h3 class="text-base text-black">پر امتیاز ترین دوره ها</h3>
+                        </div>
+                        <ul class="flex flex-col gap-y-5">
+                            <li>
+                                <a href="#" class="flex items-center gap-x-2">
+                                    <div>
+                                        <img src="./images/courses/api-1-768x432.webp" class="w-24 rounded-md" alt="" />
+                                    </div>
+                                    <div class="flex flex-col leading-7">
+                                        <span class="text-[13px] font-semibold text-darkColor">دوره آموزش api</span>
+                                        <span class="text-[13px] text-primaryColor font-semibold">393,000 تومان</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center gap-x-2">
+                                    <div>
+                                        <img src="./images/courses/badusb-1-768x432.webp" class="w-24 rounded-md" alt="" />
+                                    </div>
+                                    <div class="flex flex-col leading-7">
+                                        <span class="text-[13px] font-semibold text-darkColor">آموزش جامع bad USB</span>
+                                        <span class="text-[13px] text-primaryColor font-semibold">393,000 تومان</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center gap-x-2">
+                                    <div>
+                                        <img
+                                            src="./images/courses/ezgif.com-jpg-to-webp-converted-16-1-768x432.png"
+                                            class="w-24 rounded-md"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="flex flex-col leading-7">
+                                        <span class="text-[13px] font-semibold text-darkColor"
+                                            >پروژه های تخصصی با جاوا اسکریپت برای بازار کار</span
+                                        >
+                                        <span class="text-[13px] text-primaryColor font-semibold">393,000 تومان</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--? Finish product box -->
+                    <!--? START quick access box -->
+                    <div
+                        class="bg-white rounded-md shadow-md p-5 space-y-5 relative after:absolute after:top-4 after:-right-6 after:w-10 after:h-10 after:bg-primaryColor after:rounded-lg after:rotate-12 overflow-hidden"
+                    >
+                        <div>
+                            <h3 class="text-base text-black">دسترسی سریع</h3>
+                        </div>
+                        <div>
+                            <ul class="flex flex-col gap-y-1">
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        فرانت‌اند
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        امنیت
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        پایتون
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        پی اچ پی
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        ارتقای مهارت ها
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        مقالات
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--? FINISH quick access box -->
+                    <!--? START Latest articles -->
+                    <div
+                        class="bg-white rounded-md shadow-md p-5 space-y-5 relative after:absolute after:top-4 after:-right-6 after:w-10 after:h-10 after:bg-primaryColor after:rounded-lg after:rotate-12 overflow-hidden"
+                    >
+                        <div>
+                            <h3 class="text-base text-black">جدید ترین مقالات</h3>
+                        </div>
+                        <div>
+                            <ul class="flex flex-col gap-y-1">
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a href="#" class="w-full text-sm flex items-center gap-x-2 py-3 hover:text-darkColor">
+                                        نحوه نصب کتابخانه در پایتون | آموزش نصب کتابخانه در پایتون
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a href="#" class="w-full text-sm flex items-center gap-x-2 py-3 hover:text-darkColor">
+                                        نحوه نصب کتابخانه در پایتون | آموزش نصب کتابخانه در پایتون
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a href="#" class="w-full text-sm flex items-center gap-x-2 py-3 hover:text-darkColor">
+                                        نحوه نصب کتابخانه در پایتون | آموزش نصب کتابخانه در پایتون
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a href="#" class="w-full text-sm flex items-center gap-x-2 py-3 hover:text-darkColor">
+                                        نحوه نصب کتابخانه در پایتون | آموزش نصب کتابخانه در پایتون
+                                    </a>
+                                </li>
+                                <li class="transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a href="#" class="w-full text-sm flex items-center gap-x-2 py-3 hover:text-darkColor">
+                                        نحوه نصب کتابخانه در پایتون | آموزش نصب کتابخانه در پایتون
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--? FINISH Latest articles -->
+
+                    <!--? START acrticles category -->
+                    <div
+                        class="bg-white rounded-md shadow-md p-5 space-y-5 relative after:absolute after:top-4 after:-right-6 after:w-10 after:h-10 after:bg-primaryColor after:rounded-lg after:rotate-12 overflow-hidden"
+                    >
+                        <div>
+                            <h3 class="text-base text-black">دسته بندی مقالات</h3>
+                        </div>
+                        <div>
+                            <ul class="flex flex-col gap-y-1">
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        فرانت‌اند
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        امنیت
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        پایتون
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        پی اچ پی
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        ارتقای مهارت ها
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        مقالات
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--? Finish acrticles category -->
+
+                    <!--? START new courses box -->
+                    <div
+                        class="bg-white rounded-md shadow-md p-5 space-y-5 relative after:absolute after:top-4 after:-right-6 after:w-10 after:h-10 after:bg-primaryColor after:rounded-lg after:rotate-12 overflow-hidden"
+                    >
+                        <div>
+                            <h3 class="text-base text-black">جدید ترین دوره ها</h3>
+                        </div>
+                        <div>
+                            <ul class="flex flex-col gap-y-1">
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        فرانت‌اند
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        امنیت
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        پایتون
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        پی اچ پی
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        ارتقای مهارت ها
+                                    </a>
+                                </li>
+                                <li class="border-b transition-all px-1.5 hover:bg-gray-100 group">
+                                    <a
+                                        href="#"
+                                        class="w-full flex items-center gap-x-2 py-3 hover:text-darkColor group-hover:-translate-x-1"
+                                    >
+                                        <i class="fas fa-angle-left group-hover:text-primaryColor transition-[color]"></i>
+                                        مقالات
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--? FINISH new courses box -->
+                </section>
+            </section>
+        </main>
+        <!--? finish main blog box -->
+
+        <div class="max-w-7xl mx-auto my-5 flex justify-between gap-x-6">
+            <section class="w-8/12 bg-white shadow-md rounded-md">
+                <!--? Start comment template -->
+                <section class="space-y-4 p-5">
+                    <span>نظرات </span>
+                    <p>
+                        با عنوان
+                        <a href="#" class="underline text-primaryColor"> امین صالح عبدی پور</a>
+                        وارد شده اید.
+                        <a href="#" class="underline text-red-500 hover:text-red-500"> خارج می شوید؟</a>
+                        بخش های مورد نیاز علامت گذاری شده اند *
+                    </p>
+                    <div class="flex flex-col gap-y-3">
+                        <span>دیدگاه *</span>
+                        <textarea placeholder="دیدگاهتان را بنویسید" class="h-52 resize-none outline-none border rounded-md p-5"></textarea>
+                        <button type="submit" class="py-1.5 px-5 bg-primaryColor text-white rounded-md max-w-44">ارسال دیدگاه</button>
+                    </div>
+                </section>
+                <!--? Finish comment template -->
+            </section>
+            <section class="w-4/12"></section>
+        </div>
+
+        <!--? FINISH breadcrumb  -->
+        <!--? start Footer -->
+        <footer class="mt-40 bg-white pt-8">
+            <div class="max-w-7xl mx-auto grid grid-cols-4 gap-7 justify-items-center">
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>درباره ما</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <span class="leading-8 text-slate-500 text-justify block">
+                            سبزلرن یک اکادمی خصوصی آموزش برنامه نویسی هست که با هدف تحویل نیروی متخصص بر پایه تولید محتوای غیرسطحی فعالیت
+                            میکند
+                        </span>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>دسترسی سریع</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <ul class="flex flex-col gap-y-3 footerItemContainer">
+                            <li><a href="#">قوانین و مقررات</a></li>
+                            <li><a href="#"> ارسال تیکت </a></li>
+                            <li><a href="#"> تمام دوره ها </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>لینک های مفید</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <ul class="flex flex-col gap-y-3 footerItemContainer">
+                            <li><a href="#"> آموزش پایتون</a></li>
+                            <li><a href="#"> آموزش HTML </a></li>
+                            <li><a href="#"> آموزش CSS </a></li>
+                            <li><a href="#"> آموزش جاوااسکریپت </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-5 items-center">
+                    <div class="text-xl font-bold">
+                        <h3>شبکه های اجتماعی</h3>
+                    </div>
+                    <div class="text-[16.5px]" dir="ltr">
+                        <ul class="flex flex-col justify-center items-baseline gap-y-5 footerItemContainer">
+                            <li>
+                                <a href="#">
+                                    <span>@sabzlearn_</span>
+                                    <i
+                                        class="bi bi-instagram bg-gradient-to-br from-instagram1 via-instagram2 to-instagram3 py-1 pb-0.5 rounded-full px-2 text-white"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pr-1.5">@sabzlearn</span>
+                                    <i class="bi bi-telegram bg-telegram py-1 pb-0.5 rounded-full px-2 text-white"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="max-w-7xl mx-auto flex items-center justify-between py-7 mt-7 border-t">
+                <span>ساخته شده با ❤️ در سبزلرن</span>
+                <span>کلیه حقوق مادی و معنوی سایت برای سبز لرن محفوظ است.</span>
+            </div>
+        </footer>
+        <!--? finish Footer -->
+        <script src="./vendor/fontAwsome5/all.min.js"></script>
+        <script src="./vendor/swiperSlider/swiper-bundle.min.js"></script>
+        <script src="./js/slider.js"></script>
+        <script type="module" src="./js/shared.js"></script>
+    </body>
+</html>

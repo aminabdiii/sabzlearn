@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>سبز لرن | صفحه اصلی</title>
+        <link rel="stylesheet" href="./src/output.css" />
+        <link rel="stylesheet" href="./vendor/fontAwsome5/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./vendor/swiperSlider/swiper-bundle.min.css" />
+    </head>
+    <body class="bg-gray-100">
+        <!--? start header -->
+        <header>
+            <!--? start top bar -->
+            <nav class="flex justify-between items-center bg-slate-200 px-5">
+                <ul class="flex gap-x-2 justify-between items-center py-4 text-darkColor text-sm" id="topbarList">
+                    <!-- rendred from js -->
+                </ul>
+
+                <div class="flex gap-x-5">
+                    <div>
+                        <a href="#">
+                            09981234567
+                            <i class="fa fa-phone text-primaryColor"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            sabzlearn@gmail.com
+                            <i class="fa fa-envelope text-primaryColor"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--? fisish top bar -->
+
+            <!--? start navbar -->
+            <nav class="bg-white flex justify-between items-center px-10">
+                <div>
+                    <ul class="flex gap-x-10 items-center" id="containerMenu">
+                        <li>
+                            <a href="#"><img src="./images/logo/logo.png" alt="" class="w-[73px] h-[48px]" /></a>
+                        </li>
+                        <!--! rendered from js -->
+                    </ul>
+                </div>
+
+                <div class="flex items-center gap-x-5">
+                    <button class="text-2xl w-[56px] h-[52.8px] bg-gray-100/90 rounded-full pt-3 pb-2 px-3 text-slate-500" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+
+                    <div class="text-slate-500 relative">
+                        <a href="#" class="bg-gray-100/90 pt-4 pb-3 px-4 rounded-full"
+                            ><i class="bi bi-cart text-2xl"></i>
+                            <span class="py-px px-2 rounded-full bg-blue-400 text-white absolute -top-2 right-1 scale-75">0</span>
+                        </a>
+                    </div>
+                    <div class="text-slate-500">
+                        <a href="#" class="flex items-center gap-x-2 bg-gray-100/90 rounded-full px-4 py-3.5" id="navBarProfileBox">
+                            <span id="navBarProfileName" class="flex items-center"> </span>
+                            <i class="fa-regular fa-user text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--? finish navbar -->
+        </header>
+        <!--? finish header -->
+
+        <main>
+            <!--? start landing -->
+            <section class="bg-keyboard bg-cover bg-fixed bg-no-repeat flex flex-col items-center gap-y-8 py-20 text-white relative z-10">
+                <div class="text-center space-y-4">
+                    <h1 class="text-3xl" id="landingTitle">
+                        <!-- ما به هر قیمتی دوره آموزشی تولید نمی‌کنیم! -->
+                    </h1>
+                    <p class="text-sm">با آکادمی سبزلرن برنامه نویسی رو با خیال راحت یاد بگیر و پیشرفت کن</p>
+                </div>
+                <div class="max-w-xl mx-auto w-full relative rounded-lg overflow-hidden">
+                    <input type="text" placeholder="چی دوست داری یاد بگیری؟" class="w-full p-4 outline-none text-black" />
+                    <button class="absolute top-0 left-0 h-full text-white flex items-center px-5 text-xl bg-primaryColor" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="flex items-center justify-center gap-x-20">
+                    <div class="flex flex-col items-center gap-y-1">
+                        <img src="./images/logo/stat-teacher.svg" class="w-36" alt="" />
+                        <span class="text-2xl" id="teacherCount">198</span>
+                        <span class="font-bold p-1 bg-primaryColor rounded-lg">مدرس مجرب</span>
+                    </div>
+                    <div class="flex flex-col items-center gap-y-1">
+                        <img src="./images/logo/stat-time.svg" class="w-36" alt="" />
+                        <span class="text-2xl" id="minutesCount">443,237</span>
+                        <span class="font-bold p-1 bg-primaryColor rounded-lg">دقیقه آموزش</span>
+                    </div>
+                    <div class="flex flex-col items-center gap-y-1">
+                        <img src="./images/logo/stat-student.svg" class="w-36" alt="" />
+                        <span class="text-2xl" id="studentCount">31,071</span>
+                        <span class="font-bold p-1 bg-primaryColor rounded-lg">نفر دانشجو</span>
+                    </div>
+                </div>
+                <div class="absolute top-0 left-0 w-full h-full bg-black/70 -z-10"></div>
+            </section>
+            <!--? finish landing -->
+
+            <!--? header courses start -->
+            <header class="max-w-7xl mx-auto flex justify-between my-4 py-2">
+                <div class="relative flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold relative">
+                        جدید ترین دوره ها
+                        <span class="absolute w-[87.5%] h-[45%] bg-primaryColor/45 right-0 bottom-0 -z-[1] -skew-x-[18deg]"></span>
+                    </h3>
+                    <span class="text-sm text-gray-500 px-2">سکوی پرتاب شما به سمت موفقیت</span>
+                    <span class="absolute -right-2 h-[78%] w-1 bg-primaryColor -skew-x-[10deg] translate-y-1 rounded-lg"></span>
+                </div>
+                <div>
+                    <a href="#" class="py-2 px-3 bg-primaryColor rounded-lg text-sm text-white block hover:text-white">
+                        تمام دوره ها
+                        <i class="fa-solid fa-arrow-left px-1"></i>
+                    </a>
+                </div>
+            </header>
+            <!--? header courses start -->
+
+            <main class="max-w-7xl mx-auto">
+                <!--? course boxes start -->
+                <section class="grid grid-cols-4 gap-7" id="coursesContainer">
+                    <!--! rendered from js -->
+                </section>
+                <!--? courses finish -->
+
+                <!--? header about us start -->
+                <div class="my-4 relative space-y-1 py-2">
+                    <h3 class="inline text-2xl font-bold relative">
+                        ما چه کمکی بهتون می‌کنیم؟
+                        <span class="absolute w-full h-[45%] bg-primaryColor/45 right-0 bottom-0 -z-[1] -skew-x-[18deg]"></span>
+                    </h3>
+                    <span class="text-sm text-gray-500 px-2 block"> از اونجا که آکادمی سبزلرن یک آکادمی خصوصی است ...</span>
+                    <span class="absolute -right-2 top-0 h-[78%] w-1 bg-primaryColor -skew-x-[10deg] translate-y-2 rounded-lg"></span>
+                </div>
+                <!--? header about us fisinh -->
+
+                <!--? about us section start -->
+                <section class="grid grid-cols-2 gap-2">
+                    <div
+                        class="flex group items-center gap-x-2 border-2 shadow-md p-5 transition duration-200 cursor-pointer hover:text-primaryColor rounded-lg"
+                    >
+                        <div><i class="far fa-copyright text-6xl"></i></div>
+                        <div>
+                            <h4 class="text-lg font-semibold">دوره های اختصاصی</h4>
+                            <span class="text-sm text-slate-500 group-hover:text-inherit">با پشتیبانی و کیفیت بالا ارائه می دهیم!</span>
+                        </div>
+                    </div>
+                    <div
+                        class="flex group items-center gap-x-2 border-2 shadow-md p-5 transition duration-200 cursor-pointer hover:text-primaryColor rounded-lg"
+                    >
+                        <div><i class="fa-solid fa-leaf text-6xl"></i></div>
+                        <div>
+                            <h4 class="text-lg font-semibold">اجازه تدریس</h4>
+                            <span class="text-sm text-slate-500 group-hover:text-inherit"
+                                >اجازه تدریس به هر مدرسی رو نمیده چون کیفیت براش مهمه!</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="flex group items-center gap-x-2 border-2 shadow-md p-5 transition duration-200 cursor-pointer hover:text-primaryColor rounded-lg"
+                    >
+                        <div><i class="fa-solid fa-gem text-6xl"></i></div>
+                        <div>
+                            <h4 class="text-lg font-semibold">دوره پولی و رایگان</h4>
+                            <span class="text-sm text-slate-500 group-hover:text-inherit"
+                                >به مدرس حقوق میده برای اینکه دوره ها رو با کیفیت و با پشتیبانی عالی ارائه بده</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="flex group items-center gap-x-2 border-2 shadow-md p-5 transition duration-200 cursor-pointer hover:text-primaryColor rounded-lg"
+                    >
+                        <div><i class="fa-solid fa-crown text-6xl"></i></div>
+                        <div>
+                            <h4 class="text-lg font-semibold">اهمیت به کاربر</h4>
+                            <span class="text-sm text-slate-500 group-hover:text-inherit">سبزلرن بسیار به کاربرانش اهمیت میدهد!</span>
+                        </div>
+                    </div>
+                </section>
+                <!--? about us section finish -->
+
+                <!--? popular courses header start -->
+                <div class="my-4 relative space-y-1 py-2">
+                    <h3 class="inline text-2xl font-bold relative">
+                        محبوب ترین دوره ها
+                        <span class="absolute w-full h-[45%] bg-primaryColor/45 right-0 bottom-0 -z-[1] -skew-x-[18deg]"></span>
+                    </h3>
+                    <span class="absolute -right-2 top-0 h-[78%] w-1 bg-primaryColor -skew-x-[10deg] translate-y-2 rounded-lg"></span>
+                </div>
+                <!--? popular courses header finish -->
+
+                <!--todo start popular courses slider  -->
+                <div class="swiper mySwiper w-full rounded-2xl">
+                    <div class="swiper-wrapper" id="containerPopularCourses">
+                        <!--! render from js -->
+                    </div>
+                </div>
+                <!--todo finish popular courses slider  -->
+
+                <!--? start Pre-sale courses header  -->
+                <div class="my-4 relative space-y-1 py-2">
+                    <h3 class="inline text-2xl font-bold relative">
+                        دوره های در حال پیش فروش
+                        <span class="absolute w-full h-[45%] bg-primaryColor/45 right-0 bottom-0 -z-[1] -skew-x-[18deg]"></span>
+                    </h3>
+                    <span class="absolute -right-2 top-0 h-[78%] w-1 bg-primaryColor -skew-x-[10deg] translate-y-2 rounded-lg"></span>
+                </div>
+                <!-- ? finish Pre-sale courses header  -->
+
+                <!--todo start Pre-sale courses slider  -->
+                <div class="swiper mySwiper w-full rounded-2xl">
+                    <div class="swiper-wrapper" id="containerPresaleCourses">
+                        <!--! render from js -->
+                    </div>
+                </div>
+                <!--todo finish Pre-sale courses slider  -->
+
+                <!--? Start Articls -->
+                <!--? Start header Article  -->
+                <section class="flex justify-between my-4 py-2">
+                    <div class="relative flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold relative">
+                            جدید ترین مقالات
+                            <span class="absolute w-[92.2%] h-[45%] bg-primaryColor/45 right-0 bottom-0 -z-[1] -skew-x-[18deg]"></span>
+                        </h3>
+                        <span class="absolute -right-2 h-[78%] w-1 bg-primaryColor -skew-x-[10deg] translate-y-1 rounded-lg"></span>
+                        <span class="text-sm text-gray-500 pr-2">پیش به سوی ارتقای علم و دانش</span>
+                    </div>
+                    <div>
+                        <a href="#" class="py-2 px-3 bg-primaryColor rounded-lg text-sm text-white block hover:text-white">
+                            تمام مقاله ها
+                            <i class="fa-solid fa-arrow-left px-1"></i>
+                        </a>
+                    </div>
+                </section>
+                <!--? finish header Article  -->
+
+                <!--? start Article Boxes  -->
+                <section class="grid grid-cols-4 gap-7" id="containerArticleBox">
+                    <div class="bg-white rounded-lg overflow-hidden">
+                        <a href="#">
+                            <div class="relative">
+                                <img src="./images/blogs/vue-768x432.webp" class="" alt="" />
+                                <div class="absolute top-0 right-0 w-full h-full blogGradient"></div>
+                            </div>
+                        </a>
+                        <div class="px-4.5 pt-4 flex flex-col gap-y-3">
+                            <a href="#"><h3 class="text-lg font-semibold">Vue JS چیست؟</h3></a>
+                            <span class="font-medium line-clamp-4 text-slate-500 text-[15px] text-justify leading-6"
+                                >یکی از بخش‌های مهم در توسعه یک پروژه، نحوه تعامل کاربران با پروژه است؛ جایی که اهمیت طراحی رابط کاربری یا
+                                UI Design بیشتر به چشم می‌آید. در توسعه وب،…</span
+                            >
+                            <div class="flex justify-between items-center text-slate-500">
+                                <div>
+                                    <a href="#" class="text-[14px] text-inherit">
+                                        <i class="fa-regular fa-user text-lg"></i>
+                                        محمدامین سعیدی راد</a
+                                    >
+                                </div>
+                                <div>
+                                    <span>1403/02/07</span>
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <a
+                                href="#"
+                                class="flex items-center justify-center transition-all duration-300 text-darkColor py-4 border-t-2 border-t-slate-500/30 font-semibold"
+                            >
+                                مطالعه مقاله
+                                <i class="fa-solid fa-circle-left px-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg overflow-hidden">
+                        <a href="#">
+                            <div class="relative">
+                                <img src="./images/blogs/vue-768x432.webp" class="" alt="" />
+                                <div class="absolute top-0 right-0 w-full h-full blogGradient"></div>
+                            </div>
+                        </a>
+                        <div class="px-4.5 pt-4 flex flex-col gap-y-3">
+                            <a href="#"><h3 class="text-lg font-semibold">Vue JS چیست؟</h3></a>
+                            <span class="font-medium line-clamp-4 text-slate-500 text-[15px] text-justify leading-6"
+                                >یکی از بخش‌های مهم در توسعه یک پروژه، نحوه تعامل کاربران با پروژه است؛ جایی که اهمیت طراحی رابط کاربری یا
+                                UI Design بیشتر به چشم می‌آید. در توسعه وب،…</span
+                            >
+                            <div class="flex justify-between items-center text-slate-500">
+                                <div>
+                                    <a href="#" class="text-[14px] text-inherit">
+                                        <i class="fa-regular fa-user text-lg"></i>
+                                        محمدامین سعیدی راد</a
+                                    >
+                                </div>
+                                <div>
+                                    <span>1403/02/07</span>
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <a
+                                href="#"
+                                class="flex items-center justify-center transition-all duration-300 text-darkColor py-4 border-t-2 border-t-slate-500/30 font-semibold"
+                            >
+                                مطالعه مقاله
+                                <i class="fa-solid fa-circle-left px-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg overflow-hidden">
+                        <a href="#">
+                            <div class="relative">
+                                <img src="./images/blogs/vue-768x432.webp" class="" alt="" />
+                                <div class="absolute top-0 right-0 w-full h-full blogGradient"></div>
+                            </div>
+                        </a>
+                        <div class="px-4.5 pt-4 flex flex-col gap-y-3">
+                            <a href="#"><h3 class="text-lg font-semibold">Vue JS چیست؟</h3></a>
+                            <span class="font-medium line-clamp-4 text-slate-500 text-[15px] text-justify leading-6"
+                                >یکی از بخش‌های مهم در توسعه یک پروژه، نحوه تعامل کاربران با پروژه است؛ جایی که اهمیت طراحی رابط کاربری یا
+                                UI Design بیشتر به چشم می‌آید. در توسعه وب،…</span
+                            >
+                            <div class="flex justify-between items-center text-slate-500">
+                                <div>
+                                    <a href="#" class="text-[14px] text-inherit">
+                                        <i class="fa-regular fa-user text-lg"></i>
+                                        محمدامین سعیدی راد</a
+                                    >
+                                </div>
+                                <div>
+                                    <span>1403/02/07</span>
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <a
+                                href="#"
+                                class="flex items-center justify-center transition-all duration-300 text-darkColor py-4 border-t-2 border-t-slate-500/30 font-semibold"
+                            >
+                                مطالعه مقاله
+                                <i class="fa-solid fa-circle-left px-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg overflow-hidden">
+                        <a href="#">
+                            <div class="relative">
+                                <img src="./images/blogs/vue-768x432.webp" class="" alt="" />
+                                <div class="absolute top-0 right-0 w-full h-full blogGradient"></div>
+                            </div>
+                        </a>
+                        <div class="px-4.5 pt-4 flex flex-col gap-y-3">
+                            <a href="#"><h3 class="text-lg font-semibold">Vue JS چیست؟</h3></a>
+                            <span class="font-medium line-clamp-4 text-slate-500 text-[15px] text-justify leading-6"
+                                >یکی از بخش‌های مهم در توسعه یک پروژه، نحوه تعامل کاربران با پروژه است؛ جایی که اهمیت طراحی رابط کاربری یا
+                                UI Design بیشتر به چشم می‌آید. در توسعه وب،…</span
+                            >
+                            <div class="flex justify-between items-center text-slate-500">
+                                <div>
+                                    <a href="#" class="text-[14px] text-inherit">
+                                        <i class="fa-regular fa-user text-lg"></i>
+                                        محمدامین سعیدی راد</a
+                                    >
+                                </div>
+                                <div>
+                                    <span>1403/02/07</span>
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <a
+                                href="#"
+                                class="flex items-center justify-center transition-all duration-300 text-darkColor py-4 border-t-2 border-t-slate-500/30 font-semibold"
+                            >
+                                مطالعه مقاله
+                                <i class="fa-solid fa-circle-left px-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!--?     finish Article Boxes  -->
+                <!--? Finish Articls -->
+            </main>
+        </main>
+        <!--? start Footer -->
+        <footer class="mt-40 bg-white pt-8">
+            <div class="max-w-7xl mx-auto grid grid-cols-4 gap-7 justify-items-center">
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>درباره ما</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <span class="leading-8 text-slate-500 text-justify block">
+                            سبزلرن یک اکادمی خصوصی آموزش برنامه نویسی هست که با هدف تحویل نیروی متخصص بر پایه تولید محتوای غیرسطحی فعالیت
+                            میکند
+                        </span>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>دسترسی سریع</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <ul class="flex flex-col gap-y-3 footerItemContainer">
+                            <li><a href="#">قوانین و مقررات</a></li>
+                            <li><a href="#"> ارسال تیکت </a></li>
+                            <li><a href="#"> تمام دوره ها </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-3">
+                    <div class="text-xl font-bold">
+                        <h3>لینک های مفید</h3>
+                    </div>
+                    <div class="text-[16.5px]">
+                        <ul class="flex flex-col gap-y-3 footerItemContainer">
+                            <li><a href="#"> آموزش پایتون</a></li>
+                            <li><a href="#"> آموزش HTML </a></li>
+                            <li><a href="#"> آموزش CSS </a></li>
+                            <li><a href="#"> آموزش جاوااسکریپت </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-y-5 items-center">
+                    <div class="text-xl font-bold">
+                        <h3>شبکه های اجتماعی</h3>
+                    </div>
+                    <div class="text-[16.5px]" dir="ltr">
+                        <ul class="flex flex-col justify-center items-baseline gap-y-5 footerItemContainer">
+                            <li>
+                                <a href="#">
+                                    <span>@sabzlearn_</span>
+                                    <i
+                                        class="bi bi-instagram bg-gradient-to-br from-instagram1 via-instagram2 to-instagram3 py-1 pb-0.5 rounded-full px-2 text-white"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pr-1.5">@sabzlearn</span>
+                                    <i class="bi bi-telegram bg-telegram py-1 pb-0.5 rounded-full px-2 text-white"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="max-w-7xl mx-auto flex items-center justify-between py-7 mt-7 border-t">
+                <span>ساخته شده با ❤️ در سبزلرن</span>
+                <span>کلیه حقوق مادی و معنوی سایت برای سبز لرن محفوظ است.</span>
+            </div>
+        </footer>
+        <!--? finish Footer -->
+
+        <script src="./vendor/fontAwsome5/all.min.js"></script>
+        <script type="module" src="./js/index.js"></script>
+        <script type="module" src="./js/shared.js"></script>
+        <script src="./vendor/swiperSlider/swiper-bundle.min.js"></script>
+        <script src="./js/slider.js"></script>
+    </body>
+</html>
